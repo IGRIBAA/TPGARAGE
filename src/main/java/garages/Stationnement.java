@@ -63,4 +63,7 @@ public class Stationnement {
 				dateFormat.format(entree),
 				estEnCours() ? "en cours" : "sortie=" + dateFormat.format(fin));
 	}
+	public Garage getGarage(){
+		return garageVisite ;
+	}
 }
